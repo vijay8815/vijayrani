@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 
 const Hooks = () => {
     const [count,setCount] = useState(1);
-    function increase(){
+    function decrement(){
         setCount(count+5);
     }
   return (
     <>
         <p>{count}</p>
-        <button onClick={()=>increase()} >Click Me</button>
+        <button onClick={()=>decrement()} >Click Me</button>
     </>
   )
 }
