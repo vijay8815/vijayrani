@@ -1,14 +1,15 @@
 // import Footer from "./components/Footer";
 // import Header from "./components/Header";
 // import Hello from "./components/Hello"
-import Hooks from "./components/Hooks";
+import Insta from "./components/Insta";
 function App() {
   return (
     <div className="App">
       {/* <Header/>
       <Hello/>
-      <Footer/> */}
-       <Hooks/>                                                                   
+      <Footer/> 
+      <Fun/> */} 
+      <Insta/>                                                               
     </div>
   );
 }                                                                      
