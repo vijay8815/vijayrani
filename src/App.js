@@ -2,6 +2,7 @@
 // import Header from "./components/Header";
 // import Hello from "./components/Hello"
 import Insta from "./components/Insta";
+import Todolist from "./components/Todolist";
 function App() {
   return (
     <div className="App">
@@ -9,7 +10,7 @@ function App() {
       <Hello/>
       <Footer/> 
       <Fun/> */} 
-      <Insta/>                                                               
+      <Todolist/>                                                               
     </div>
   );
 }                                                                      
