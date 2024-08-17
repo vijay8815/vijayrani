@@ -15,7 +15,7 @@ const Todolist = () => {
         {
         arr.map((item,index)=>(
             <li key={index}>{item}</li>
-        ))}
+        )                                                                           )}
     
 </div>
 <button onClick={()=>inserting()}>Add Item</button>
