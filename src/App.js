@@ -1,9 +1,10 @@
 // import Footer from "./components/Footer";
 // import Header from "./components/Header";
 // import Hello from "./components/Hello"
-import Insta from "./components/Insta";
-import Todolist from "./components/Todolist";
-import Local from "./components/Local";
+// import Insta from "./components/Insta";
+// import Todolist from "./components/Todolist";
+// import Local from "./components/Local";
+import Nexcomp from "./components/Newcomp";
 function App() {
   return (
     <div className="App">
@@ -12,8 +13,13 @@ function App() {
       <Footer/> 
       <Fun/> 
        <Todolist/>
-       <localStorage/>*/} 
-       <Local/>
+       <localStorage/> 
+       <Local/>*/}
+       <Nexcomp name="vijay"
+       dept="cse"
+       location="tirpur"
+       regno= {456}/>
+
           </div>
   );
 }                                                                      
